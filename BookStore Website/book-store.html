@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <title>BookStore</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BookStore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Book Store Section -->
+    <section id="books" class="container">
+        <h2 class="text-center mt-3">OUR BOOK</h2>
+        <div class="row row-cols-2 ">
+            <div class="col-md-3 mt-3">
+                <div class="card">
+                    <img src="/BookStore Website/images/CSS BOOK.webp">
+                    <div class="card-body">
+                        <h3 class="card-title">CSS BOOK</h3>
+                        <p class="card-text">Price :400</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-3">
+                <div class="card">
+                    <img src="/BookStore Website/images/HTML BOOK.webp">
+                    <div class="card-body">
+                        <h3 class="card-title">HTML BOOK</h3>
+                        <p class="card-text">Price :300</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="card">
+                    <img src="/BookStore Website/images/Bootsrap Book.webp">
+                    <div class="card-body">
+                        <h3 class="card-title">BOOTSTRAP-5 BOOK</h3>
+                        <p class="card-text">Price :200</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="card">
+                    <img src="/BookStore Website/images/NETWORKING BOOK.webp">
+                    <div class="card-body">
+                        <h3 class="card-title">NETWORKING BOOK</h3>
+                        <p class="card-text">Price :200</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="card">
+                    <img src="/BookStore Website/images/PYTHON BOOK.webp">
+                    <div class="card-body">
+                        <h3 class="card-title">PYTHON BOOK</h3>
+                        <p class="card-text">Price :200</p>
+                        <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objective Question Section -->
+    <section id="obt" class="container mt-5">
+        <h2 class="text-center text-decoration-underline">Objective Question</h2>
+        <h2>Related Objective from Python</h2>
+        <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5> <span class="text-danger">Question 1:</span> What type of language is Python?</h5>
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="fs-5">
+                            (A) Compiled language
+                            (B) Interpreted language
+                            (C) Machine language
+                            (D) Assembly language</p>
+                        <p class="text-success">
+                            ✅ Answer: (B) Interpreted language</p>
+                        <p>
+                            Explanation: Python is an interpreted language, meaning the code is executed line by line by
+                            an
+                            interpreter at runtime. Unlike compiled languages (like C or Java), Python does not require
+                            compilation
+                            before execution, making development faster and easier.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                            <h5> <span class="text-danger fs-4">Question 2:</span> Which of the following is NOT a
+                                built-in data type in
+                                Python?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fs-5">
+                                (A) List
+                                (B) Tuple
+                                (C) Array
+                                (D) Dictionary
+                            </p>
+                            <p class="text-success">
+                                ✅ Answer: (C) Array</p>
+                            <p>
+                                Explanation: Python does not have a built-in array data type. Instead, lists are used as
+                                dynamic arrays.
+                                If
+                                a user needs an actual array-like structure, they must import the array module or use
+                                the numpy library
+                                for
+                                advanced array operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+                            <h5> <span class="text-danger fs-4">Question 3:</span> What is the purpose of the len()
+                                function in Python?
+                            </h5>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fs-5">(A) To add elements to a list
+                                (B) To find the length of a string
+                                (C) To delete an object
+                                (D) To run a loop</p>
+
+                            <p class="text-success">✅ Answer: (B) To find the length of a string</p>
+                            <p>
+                                Explanation: The len() function returns the number of elements in an object. It is
+                                commonly used with
+                                strings to find their length, but it can also be used with lists, tuples, dictionaries,
+                                and other iterable
+                                objects to count the number of elements they contain.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h2 class="mt-5">Related Objective from Python</h2>
+            <div class="accordion mt-4" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5> <span class="text-danger">Question 1:</span> What type of language is Python?</h5>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p class="fs-5">
+                                (A) Compiled language
+                                (B) Interpreted language
+                                (C) Machine language
+                                (D) Assembly language</p>
+                            <p class="text-success">
+                                ✅ Answer: (B) Interpreted language</p>
+                            <p>
+                                Explanation: Python is an interpreted language, meaning the code is executed line by
+                                line by
+                                an
+                                interpreter at runtime. Unlike compiled languages (like C or Java), Python does not
+                                require
+                                compilation
+                                before execution, making development faster and easier.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+                                <h5> <span class="text-danger fs-4">Question 2:</span> Which of the following is NOT a
+                                    built-in data type in
+                                    Python?</h5>
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fs-5">
+                                    (A) List
+                                    (B) Tuple
+                                    (C) Array
+                                    (D) Dictionary
+                                </p>
+                                <p class="text-success">
+                                    ✅ Answer: (C) Array</p>
+                                <p>
+                                    Explanation: Python does not have a built-in array data type. Instead, lists are
+                                    used as
+                                    dynamic arrays.
+                                    If
+                                    a user needs an actual array-like structure, they must import the array module or
+                                    use
+                                    the numpy library
+                                    for
+                                    advanced array operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+                                <h5> <span class="text-danger fs-4">Question 3:</span> What is the purpose of the len()
+                                    function in Python?
+                                </h5>
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p class="fs-5">(A) To add elements to a list
+                                    (B) To find the length of a string
+                                    (C) To delete an object
+                                    (D) To run a loop</p>
+
+                                <p class="text-success">✅ Answer: (B) To find the length of a string</p>
+                                <p>
+                                    Explanation: The len() function returns the number of elements in an object. It is
+                                    commonly used with
+                                    strings to find their length, but it can also be used with lists, tuples,
+                                    dictionaries,
+                                    and other iterable
+                                    objects to count the number of elements they contain.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">CSS BOOK</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="text-success" ><strong>SUCCESS!</strong> If you want to buy this book then click yes</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Yes</button>
+   
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-light p-4 mt-5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur minus, nostrum obcaecati ad odio
+            commodi sapiente voluptas officiis porro quod, quia doloribus! Dignissimos perspiciatis, vero architecto
+            facilis corporis eius corrupti!</p>
+    </footer>
+
+
+    <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
